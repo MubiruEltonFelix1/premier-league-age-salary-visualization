@@ -1,45 +1,74 @@
-🏟 Premier League Player Age vs Salary Visualization
+# Premier League Player Age vs Salary Visualization
 
-This project explores the relationship between player age and weekly salary in the Premier League.
-It uses a custom-generated dataset of 200 players and produces a clean visualization using Matplotlib and Pandas.
+This project explores the relationship between **player age** and **weekly salary** in the Premier League. It uses a dataset of 200 players and produces a polished visualization using **Matplotlib**.
 
-📊 Project Features
+---
 
-200-player dataset
+## Project Overview
 
-Real Premier League club names
+* **Dataset**: 200 Premier League players with real club names, approximate ages, and realistic synthetic salaries.
+* **Visualization**: Scatter plot showing Age vs Weekly Salary, colored by club.
+* **Purpose**: Showcase data manipulation, visualization skills, and insights into salary distribution by age and club.
 
-Clean Matplotlib scatter plot
+---
 
-Club-colored visualization
+## Files
 
-Helps understand salary trends vs age
+| File                                         | Description                                                          |
+| -------------------------------------------- | -------------------------------------------------------------------- |
+| `premier_league_realnames_ages_salaries.csv` | Dataset of Premier League players (Player, Age, Weekly Salary, Club) |
+| `age_vs_salary_club_colored.png`             | Scatter plot of Age vs Salary colored by club                        |
+| `visualization.py`                           | Python script to generate the visualization                          |
 
-📁 Files
-File	Description
-premier_league_realnames_ages_salaries.csv	Clean dataset of 200 Premier League players
-age_vs_salary_club_colored.png	Final visualization
-visualization.py	Python script generating the plot (if added)
-📈 Visualization Preview
+---
 
-(Insert your image here later)
+## Visualization Preview
 
-![Visualization](age_vs_salary_club_colored.png)
+![Age vs Salary](age_vs_salary_club_colored.png)
 
-🛠 Tools Used
+---
 
-Python
+## Tools Used
 
-Pandas
+* Python
+* Pandas
+* NumPy
+* Matplotlib
 
-NumPy
+---
 
-Matplotlib
+## Insights
 
-💡 Insights
+* Players aged **24-30** tend to earn the highest salaries.
+* Top clubs (Manchester City, Arsenal, Liverpool, Chelsea) dominate the top salary range.
+* Younger players mostly have lower salaries, forming a cluster in the lower-left of the scatter plot.
 
-Players aged 24–30 earn the highest salaries
+---
 
-Top clubs (Arsenal, City, Chelsea, Liverpool) dominate the top salary bracket
+## How to Run
 
-Younger players cluster around lower salary ranges
+1. Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/premier-league-age-salary-visualization.git
+```
+
+2. Install dependencies:
+
+```bash
+pip install pandas matplotlib numpy
+```
+
+3. Run the script:
+
+```bash
+python visualization.py
+```
+
+4. Open `age_vs_salary_club_colored.png` to see the plot.
+
+---
+
+## License
+
+This project is for portfolio and educational purposes. Feel free to use or modify the code for learning.
